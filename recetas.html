@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas de Panadería</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+      <script src="recetas.js" defer></script>
+</head>
+<body>
+
+<header>
+        <img src="banner.png" alt="Banner de Panadería" class="banner">
+        <nav class="menu">
+        <div class="container">
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Recetas.html">Recetas</a></li>
+                <li><a href="Consejos.html">Consejos prácticos</a></li> 
+                <li><a href="pizarrones.html">Pizarrones 2023</a></li>
+                <!-- Agrega más enlaces de navegación aquí -->
+            </ul>
+        </div>    
+        </nav>
+    </header>
+
+<div class="vspace"></div>
+<div class="container">
+
+
+ <input type="text" id="busqueda" placeholder="Buscar recetas..." oninput="filtrarRecetas()">
+ <button id="expandir-contraer" class="expandir-contraer" onclick="expandirContraerR()">Expandir todo</button>
+<div class="vspace"></div> 
+ 
+ <div id="recetas" class="recetas">
+
+ </div> <!-- Cierra div de recetas general -->
+        
+</div>    <!-- Cierra container de márgenes -->
+<a href="#" class="back-to-top">
+        <span>&#8593;</span>
+        <span>Volver</span>
+    </a>        
+        
+</body>
+</html>
