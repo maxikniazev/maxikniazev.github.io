@@ -242,8 +242,20 @@ imagen: `<img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-im
             <td class="total-percent">${total}</td>
             <td><input type="number" class="total-mass" placeholder="Masa" oninput="calculateAmounts(this)">
                     
-                
+                <img src="info.png" alt="Información" style="width: 18px; cursor:pointer;" onclick="openModal()">
 
+    <div id="infoModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="calcharina.png" alt="Descripción de la imagen" style="width: 60%; max-height: 500px; object-fit: contain;">
+        <p>Cálculo de ingredientes según cantidad de masa total a requerir. (1) Sumar los porcentajes
+    para obtener el peso final en base a 100 gramos de harina. (2) Calcular la masa total requerida y
+    anotarla en otra columna, en este caso se precisaban 56 panes de 200 gramos. (3) Calcular la harina
+    necesaria para obtener esa cantidad de masa y redondearla al entero más cercano. (4) Determinar las
+    cantidades de los demás ingredientes en base a la cantidad de harina redondeada (Al redondear los ingredientes, la suma no será
+    igual al total en azul).</p>
+      </div>
+    </div>
                         
             </td>
         </tr>

@@ -12,7 +12,19 @@
 
 <header>
         <img src="banner.png" alt="Banner de Panadería" class="banner">
-</header>
+        <nav class="menu">
+        <div class="container">
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Recetas.html">Recetas</a></li>
+                <li><a href="Consejos.html">Consejos prácticos</a></li> 
+                <li><a href="pizarrones.html">Pizarrones 2023</a></li>
+                <!-- Agrega más enlaces de navegación aquí -->
+            </ul>
+        </div>    
+        </nav>
+    </header>
+
 <div class="vspace"></div>
 <div class="container">
 
