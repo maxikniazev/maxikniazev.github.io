@@ -9,7 +9,7 @@ body {
 }
 
 body {
-  background: linear-gradient(180deg, rgb(255, 172, 10) 30%, white);
+  background: linear-gradient(180deg, rgb(255, 172, 10) 25%, rgb(241, 206, 136));
   min-height: 100vh;
   background-attachment: fixed;
 }
@@ -57,7 +57,7 @@ header img {
     position: sticky;
     top: 0;
     z-index: 100;
-    %background-color: rgba(255, 172, 10, 0);
+    background-color: rgba(255, 172, 10, 0);
     width: 100%;
     font-weight: bold;
 }
@@ -102,7 +102,7 @@ header img {
     position: sticky;
     top: 0;
     z-index: 100;
-    %background-color: rgba(255, 172, 10, 0);
+    background-color: rgba(255, 172, 10, 0);
     width: 100%;
     font-weight: bold;
 	color: rgb(60, 60, 60);
@@ -193,7 +193,6 @@ font-size: 0.8em;
     display: inline-block;
     vertical-align: middle;
     vertical-align: middle;
-    text-align: center;
 margin: 0 auto;    
 }
 
@@ -208,13 +207,8 @@ td {
 }
 
 .recipe-table-container {
-    width: 66%;
+    width: 100%;
       align-items: center;
-}
-
-
-.recipe-image-container {
-	width: 34% 
 }
 
 .container {
@@ -222,6 +216,12 @@ td {
     margin-right: 10%; /* Cambia el porcentaje según prefieras */
 }
 
+.centering{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 /* Pop-up */
 .modal {
@@ -264,13 +264,35 @@ td {
     width: 30%;
     margin-bottom: 20px;
     box-sizing: border-box;
+    background-color: rgba(255, 249, 234, 1);
+    border-radius: 20px;
+    padding: 2%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.pizarron-imagen {
-    width: 100%;
-    height: auto;
+.descripcion {
+    font-size: 16px; /* Cambia el tamaño de la fuente */
+    color: #333; /* Cambia el color del texto */
+    margin-top: 10px; /* Añade un margen en la parte superior */
+    line-height: 1.5; /* Cambia el espacio entre las líneas de texto */
+  }
+  
+  .keywords {
+    font-size: 14px; /* Cambia el tamaño de la fuente */
+    color: #666; /* Cambia el color del texto */
+    margin-top: 10px; /* Añade un margen en la parte superior */
+    font-style: italic; /* Hace que el texto sea cursiva */
+  }
+  
+
+  .pizarron-imagen {
+    width: auto;
+    height: 300px; /* Cambia esto al valor que desees */
+    max-width: 100%;
+    object-fit: cover; /* Esto asegura que la imagen cubra todo el espacio disponible sin estirarse ni comprimirse */
     cursor: pointer;
 }
+
 
 .descripcion, .keywords {
     margin: 5px 0;
@@ -282,3 +304,7 @@ td {
     line-height: 1.5;
 }
 
+#busqueda {
+    width: 30%; /* Cambia esto al ancho que desees */
+    height: 30px; /* Cambia esto a la altura que desees */
+  }

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizarrones de avanzada</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    
+</head>
+<body>
+  <!-- <header>
+        <img src="banner.png" alt="Banner de Panadería" class="banner">
+        <nav class="menu">
+        <div class="container">
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Recetas.html">Recetas</a></li>
+                <li><a href="Consejos.html">Consejos prácticos</a></li> 
+                <li><a href="pizarrones.html">Pizarrones 2023</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header> -->
+    
+    
+ <div class="vspace"></div>
+<div class="container">
+   
+    <input type="text" id="busqueda" placeholder="Buscar por palabra clave..." oninput="filtrarPizarrones()">
+    <select id="keywordDropdown" onchange="filterByKeyword()">
+  <!-- Las opciones se llenarán con JavaScript -->
+</select>
+
+    
+ <div class="vspace"></div>
+    <div class="pizarrones">
+        <div class="pizarron">
+            <h2 class="fecha">13/3/23</h2>
+            <img src="Piz/01_13_3.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Clase inagural con Pan frances y Pan con grasa</p>
+            <p class="keywords">Pan Frances, Pan con Grasa</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">15/3/23</h2>
+            <img src="Piz/02_15_3.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Variante del Pan Frances con esponja, Marselles clásico y Croissant Francés</p>
+            <p class="keywords">Pan Frances, Marselles, Croissant Frances, Esponja</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">17/3/23</h2>
+            <img src="Piz/03_17_3.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Primer armado de baguette. Pan con grasa y Mantequillas</p>
+            <p class="keywords">Pan Frances, Pan con Grasa, Mantequillas, Baguette</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">20/3/23</h2>
+            <img src="Piz/04_20_3.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Pan frances con poolish, pan de campo, pan integral (70/30), pan con grasa con chicharrones</p>
+            <p class="keywords">Pan Frances, Poolish, Pan de Campo, Integral, Pan con Grasa, Chicharrones</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">22/3/23</h2>
+            <img src="Piz/05_22_3.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Croissant Criollo (Bizcocho rioplatense), Ciabatta y pan de viena</p>
+            <p class="keywords">Croissant Criollo, Bizcocho, Ciabatta, Viena, Tortuga, Catalán </p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">24/3/23</h2>
+            <img src="Piz/24_3.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Variantes de Pan Frances: Directo, Poolish, Masa Madre</p>
+            <p class="keywords">Pan Frances, Poolish, Masa Madre </p> 
+        </div>
+
+        <div class="pizarron">
+            <h2 class="fecha">27/3/23</h2>
+            <img src="Piz/07_27_3.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Croissant Frances, Marselles especial (Cuernitos), Ciabatta con aceitunas, Pan de campo pre-cocido</p>
+            <p class="keywords">Croissant Frances, Marselles, Ciabatta, Pan de Campo, Aceitunas</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">29/3/23</h2>
+            <img src="Piz/05_22_3.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Felipes, Ciabatta de Curry (fantasía), Pan Tigre (Fantasía), Mantequilla Hojaldrada</p>
+            <p class="keywords">Felipes, Ciabatta, Fantasía, Mantequillas</p> 
+        </div>
+
+        <div class="pizarron">
+            <h2 class="fecha">31/3/23</h2>
+            <img src="Piz/09_31_3.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Rosca de pascua, Galleta hojaldrada, Croissant Frances Bicolor</p>
+            <p class="keywords">Rosca de Pascua, Galleta Hojaldrada, Croissant Frances, Bicolor, Chocolate</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">10/4/23</h2>
+            <img src="Piz/12_104.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Descripción de la imagen 8</p>
+            <p class="keywords">Galleta Aceite, Pan Frances, Croissant Criollo, Galleta Hojaldrada, Pan de Molde, Semillas</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">12/4/23</h2>
+            <img src="Piz/13_12_4(1).jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Prueba por equipos: Los Nuevos, Marselles clásico, galleta y flauta porteño </p>
+            <p class="keywords">Marselles, Galleta, Flauta, Porteño</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">12/4/23</h2>
+            <img src="Piz/13_12_4(2).jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Prueba por equipos: El bizcocho alegre. Ciabatta con aceitunas y Croissant Frances</p>
+            <p class="keywords">Ciabatta, Crosissant Frances, Aceitunas</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">12/4/23</h2>
+            <img src="Piz/13_12_4(3).jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Prueba por equipos: Linces. Pan de viena, Marselles especial, pan con grasa.</p>
+            <p class="keywords">Viena, Hamburguesa, Catalan, Pan con Grasa, Marselles</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">14/4/23</h2>
+            <img src="Piz/14_14_4.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Pan Frances, Marselles, Croissant Frances Bicolor, Galleta Sopladita, Ciabatta</p>
+            <p class="keywords">Pan Frances, Marselles, Croissant Frances, Bicolor, Chocolate, Galleta Sopladita, Ciabatta</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">19/4/23</h2>
+            <img src="Piz/15_19_4.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Galleta marina, Galleta de Semillas, CIabatta de Longaniza y Vino, Pan Francés de masa madre y ojitos</p>
+            <p class="keywords">Galleta Marina, Semillas, Ciabatta, Fantasía, Pan Frances, Masa Madre, Ojitos</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">21/4/23</h2>
+            <img src="Piz/16_21_4.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Pan frances, Medialunas de manteca, Viena, Pan Casero, Grisines integrales</p>
+            <p class="keywords">Pan Frances, Medialunas, Viena, Hamburguesa, Catalan, Pan Casero, Grisines</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">24/4/23</h2>
+            <img src="Piz/17_24_4(1).jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Ciabatta y Felipes</p>
+            <p class="keywords">Ciabatta, Felipes</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">24/4/23</h2>
+            <img src="Piz/17_24_4(2).jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Pan de pita y Croissant Criollo</p>
+            <p class="keywords">Pan de Pita, Croissant Criollo, Bizcocho</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">24/4/23</h2>
+            <img src="Piz/17_24_4(3).jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Galleta Integral Hojaldrada, Galleta Hojaldrada, Pan con Grasa</p>
+            <p class="keywords">Galleta Hojaldrada, Integral, Pan con Grasa</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">26/4/23</h2>
+            <img src="Piz/18_26_4.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Pan de Campo, Mantequillas, Pan Frances, Marselles Integral, Pan con Grasa Vegano</p>
+            <p class="keywords">Pan de Campo, Mantequillas, Pan Frances, Marselles, Integral, Pan con Grasa, Vegano</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">28/4/23</h2>
+            <img src="Piz/19_28_4.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Galleta Sopladita, Grisines con Manteca, Baguette con semillas, Rosca de Chicharrones, Viena vegano (Aceite), Pan de 3 harinas</p>
+            <p class="keywords">Galleta Sopladita, Grisines, Baguette, Semillas, Pan Frances, Croissant Criollo, Chicharrones, Viena, Vegano, Centeno, Integral</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">03/5/23</h2>
+            <img src="Piz/20_03_5.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Galleta Hojaldrada Integral, Pan Jala, Galleta hojaldrada sin levadura, Pan "Sorpresa" Fantasía de semillas</p>
+            <p class="keywords">Galleta Hojaldrada, Integral, Jala, Fantasía, Semillas</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">05/5/23</h2>
+            <img src="Piz/21_05_5.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Pan de Naranja, Galleta Hojaldrada Vegana (Aceite), Galletas y palitos de queso, Croissant Frances, Trenzas (Fantasía)</p>
+            <p class="keywords">Pan de Naranja, Galleta Hojaldrada, Vegano, Queso, Croissant Frances, Fantasía</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">08/5/23</h2>
+            <img src="Piz/22_08_5.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Variantes de Baguette: Trigo, Centeno, Espelta, Integral. Croissant Criollo y Moldes Lactal</p>
+            <p class="keywords">Pan Frances, Baguette, Centeno, Espelta, Integral, Croissant Criollo, Bizcocho, Pan Lactal</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">10/5/23</h2>
+            <img src="Piz/23_10_5.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Pan de Maíz Salado, Pan de Manteca, Rosca Dulce trenzada, Grisines de ajo, queso y orégano</p>
+            <p class="keywords">Pan de Maíz, Pan de Manteca, Rosca Dulce, Grisines</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">12/5/23</h2>
+            <img src="Piz/24_12_5(1).jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Pan de Papa</p>
+            <p class="keywords">Pan de Papa</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">12/5/23</h2>
+            <img src="Piz/24_12_5(2).jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Panes de masa madre y centeno</p>
+            <p class="keywords">Pan Frances, Masa Madre, Centeno</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">15/5/23</h2>
+            <img src="Piz/25_15_5.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Pan de Naranja, Pan de Manteca, Pan de Molde (Sandwich Inglés), Pan Tigre (Fantasía), Pan Frances con Sémola, Crema de Cacaco</p>
+            <p class="keywords">Pan de Naranja, Pan de Manteca, Pan de Molde, Sandwich, Fantasía, Pan Frances, Sémola, Crema de Cacao</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">17/5/23</h2>
+            <img src="Piz/26_17_5.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Pan de Sidra y manzana verde (Fantasía), Plantillas, Alfajores de Maicena, Polvorones</p>
+            <p class="keywords">Fantasía, Plantillas, Alfajores de Maicena, Polvorones</p> 
+        </div>
+        
+        <div class="pizarron">
+            <h2 class="fecha">19/5/23</h2>
+            <img src="Piz/27_19_5.jpeg" alt="Imagen 1" class="pizarron-imagen">
+            <p class="descripcion">Budín inglés, Pan de manteca, Pan de Molde (Lactal marmolado), Medialunas de copetín</p>
+            <p class="keywords">Budín Inglés, Pan de Manteca, Pan Lactal, Medialunas</p> 
+        </div>
+        <!-- Repite el bloque para las otras imágenes -->
+    </div>
+
+<!-- Este es el pop-up que se mostrará cuando hagas clic en una imagen -->
+<div id="popup" style="display: none; position: fixed; width: 100%; height: 100%; top: 0; left: 0; background: rgba(0,0,0,0.5); z-index: 9999;">
+    <img id="popupImage" src="" style="display: block; max-width: 80%; max-height: 80%; margin: 10% auto;">
+  </div>
+  
+
+    
+</div>
+</body>
+</html>

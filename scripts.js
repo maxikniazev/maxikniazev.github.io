@@ -149,3 +149,77 @@ function filtrarPizarrones() {
     });
   });
 
+
+  // Esta función se llama cuando haces clic en una imagen
+function showPopup(src) {
+    var popup = document.getElementById('popup');
+    var popupImage = document.getElementById('popupImage');
+    popupImage.src = src;
+    popup.style.display = 'block';
+  }
+  
+  // Esta función se llama cuando haces clic en el pop-up
+  function hidePopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'none';
+  }
+  
+  // Aquí es donde agregas los event listeners a las imágenes
+  var images = document.getElementsByClassName('pizarron-imagen');
+  for (var i = 0; i < images.length; i++) {
+    images[i].addEventListener('click', function(e) {
+      showPopup(e.target.src);
+    });
+  }
+  
+  // Y aquí es donde agregas el event listener al pop-up
+  document.getElementById('popup').style.display = 'none';
+
+  document.getElementById('popup').addEventListener('click', hidePopup);
+  
+// Esta función se llama cuando se carga la página y llena el menú desplegable con las keywords
+function fillDropdown() {
+    var items = document.getElementsByClassName('pizarron');
+    var keywords = new Set();
+  
+    for (var i = 0; i < items.length; i++) {
+      var itemKeywords = items[i].getElementsByClassName('keywords')[0].innerText.split(', ');
+      for (var j = 0; j < itemKeywords.length; j++) {
+        keywords.add(itemKeywords[j]);
+      }
+    }
+  
+    var dropdown = document.getElementById('keywordDropdown');
+  
+    // Añade la opción "Todo" al inicio del menú desplegable
+    var allOption = document.createElement('option');
+    allOption.value = 'Todo';
+    allOption.text = 'Todo';
+    dropdown.add(allOption);
+  
+    keywords.forEach(function(keyword) {
+      var option = document.createElement('option');
+      option.value = keyword;
+      option.text = keyword;
+      dropdown.add(option);
+    });
+  }
+  
+  // Esta función se llama cuando se selecciona una keyword del menú desplegable y filtra los items
+  function filterByKeyword() {
+    var selectedKeyword = document.getElementById('keywordDropdown').value;
+    var items = document.getElementsByClassName('pizarron');
+  
+    for (var i = 0; i < items.length; i++) {
+      var keywords = items[i].getElementsByClassName('keywords')[0].innerText;
+      if (selectedKeyword === 'Todo' || keywords.includes(selectedKeyword)) {
+        items[i].style.display = '';
+      } else {
+        items[i].style.display = 'none';
+      }
+    }
+  }
+  
+  // Llama a fillDropdown cuando se carga la página
+  window.onload = fillDropdown;
+  
