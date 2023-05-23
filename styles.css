@@ -270,6 +270,12 @@ td {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width: 600px) {
+    .pizarron {
+        width: 100%;
+    }
+}
+
 .descripcion {
     font-size: 16px; /* Cambia el tamaño de la fuente */
     color: #333; /* Cambia el color del texto */
