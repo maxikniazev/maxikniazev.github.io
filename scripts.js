@@ -1,3 +1,25 @@
+window.onload = function() {
+  var countdownElement = document.getElementById('countdown');
+  var loadingScreen = document.getElementById('loading-screen');
+  var count = 15;
+
+  if (document.cookie.split(';').some((item) => item.trim().startsWith('visited='))) {
+      loadingScreen.style.display = 'none';
+  } else {
+      var countdown = setInterval(function() {
+          count--;
+          countdownElement.innerText = count + ' segundos restantes';
+  
+          if(count <= 0) {
+              clearInterval(countdown);
+              loadingScreen.style.display = 'none';
+              document.cookie = "visited=true; max-age=1800"; // Esta cookie expira después de un día
+          }
+      }, 1000);
+  }
+};
+
+
 function toggleReceta(event) {
     const titulo = event.currentTarget;
     const contenido = titulo.nextElementSibling;

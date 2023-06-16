@@ -14,6 +14,23 @@ body {
   background-attachment: fixed;
 }
 
+#loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+#loading-content {
+  text-align: center;
+}
 
 .triangulo {
     margin-right: 5px;
@@ -135,7 +152,21 @@ header img {
 
 .expandir-contraer {
 font-size: 0.8em;
+width: 30%; 
+    height: 30px; 
 }
+
+#boton-volver-receta{
+  font-size: 0.8em;
+  width: 30%; 
+      height: 30px; 
+}
+
+#boton-ir-pizarrones {
+  font-size: 0.8em;
+  width: 30%; 
+      height: 30px; 
+  } 
 
 .estilo-comun{
     padding: 5px 10px;
@@ -302,6 +333,11 @@ td {
     cursor: pointer;
 }
 
+#keywordDropdown{
+  font-size: 0.8em;
+  width: 30%; 
+      height: 30px; 
+}
 
 .descripcion, .keywords {
     margin: 5px 0;
@@ -312,7 +348,7 @@ td {
   
 
 #busqueda {
-    width: 30%; /* Cambia esto al ancho que desees */
+    width: 33%; /* Cambia esto al ancho que desees */
     height: 30px; /* Cambia esto a la altura que desees */
   }
 
