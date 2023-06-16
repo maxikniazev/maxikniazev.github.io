@@ -76,7 +76,9 @@ Aceite\t7
 Azúcar\t5
 Aditivo\t0.6
 Total\t179.6`,
-  instrucciones: `
+  instrucciones:
+   `
+   <img src="panes/molde1.png" alt="Descripción de la imagen">
   <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura a la amasadora.
@@ -126,6 +128,15 @@ Total\t179.6`,
 	canela o chocolate) para lograr una espiral en el corte. </span>
 	</p>
 </ul>
+<div class="grid"> 
+<img src="panes/Moldes.jpg" alt="Descripción de la imagen SVG">
+<img src="panes/molde2.jpeg" alt="Descripción de la imagen SVG">
+
+</div>
+<video width="320" height="240" controls>
+  <source src="panes/molde3.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
 `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -140,7 +151,9 @@ Levadura\t3
 Aditivo\t0.8
 Azúcar\t3
 Total\t163.3`,
-  instrucciones: `<ol>
+  instrucciones: `
+  <img src="panes/marselles0.png" alt="Descripción de la imagen">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"> <span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura a la amasadora.
 	Encenderla en velocidad 1 por 5 minutos.</span></p>
@@ -204,6 +217,23 @@ Total\t163.3`,
 <br/>
 
 </p>
+<div class="grid"> 
+<img src="panes/Marselles1.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/Marselles2.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/Marselles3.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/Marselles4.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/Marselles5.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/Marselles6.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/Marselles7.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/Marselles8.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/Marselles9.jpeg" alt="Descripción de la imagen SVG">
+
+</div>
+<video width="320" height="240" controls>
+  <source src="panes/Marselles10.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+
 `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -219,7 +249,13 @@ Grasa\t5
 Azúcar\t3
 Aditivo\t0.6
 Total\t153.1`,
-  instrucciones: `<ol>
+  instrucciones: `
+  
+  <img src="panes/hojaldrada1.png" alt="Descripción de la imagen SVG"> 
+  <img src="panes/rosca.png" alt="Descripción de la imagen SVG">
+  
+
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Tener
 	preparada una </span><span lang="es-MX"><b>Granza</b></span><span lang="es-MX">:
 	Sobre el 15% del total de la masa mezclar hasta obtener una textura
@@ -298,6 +334,16 @@ Total\t153.1`,
 <br/>
 
 </p>
+<div class="grid"> 
+<img src="panes/hojaldrada2.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/hojaldrada3.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/hojaldrada4.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/hojaldrada5.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/rosca1.jpg" alt="Descripción de la imagen SVG">
+<img src="panes/rosca2.jpg" alt="Descripción de la imagen SVG">
+<img src="panes/rosca3.jpg" alt="Descripción de la imagen SVG">
+<img src="panes/rosca4.jpg" alt="Descripción de la imagen SVG">
+</div>
 `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -344,7 +390,9 @@ Azúcar\t6
 Grasa(Empaste)\t32
 Harina(Empaste)\t11
 Total\t213.1`,
-  instrucciones: ` <ol>
+  instrucciones: ` 
+  <img src="panes/bizcriollo0.png" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Preparar
 	el </span><span lang="es-MX"><b>empaste</b></span><span lang="es-MX">
 	homogeneizando la harina y la grasa destinada a dicho fin, puede
@@ -441,6 +489,12 @@ Total\t213.1`,
 <br/>
 
 </p>
+<div class="grid"> 
+<img src="panes/bizcriollo1.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/bizcriollo2.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/bizcriollo3.jpeg" alt="Descripción de la imagen SVG">
+
+</div>
 `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -463,7 +517,9 @@ Aditivo\t0.8
 Huevo\t10
 Azúcar\t12
 Total\t218.3`,
-  instrucciones: ` <ol>
+  instrucciones: ` 
+  <img src="panes/pascua1.jpg" alt="Descripción de la imagen SVG"> 
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura y la materia grasa a
 	la amasadora. Encenderla en velocidad 1 por 5 minutos.</span></p>
@@ -543,7 +599,9 @@ Levadura\t3
 Azúcar\t4
 Aceite\t28
 Total\t176.7`,
-  instrucciones: ` <ol>
+  instrucciones: ` 
+  <img src="panes/cuernito4.png" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura a la amasadora.
 	Encenderla en velocidad 1 por 5 minutos.</span></p>
@@ -568,7 +626,20 @@ Total\t176.7`,
 <br/>
 
 </p>
-`,
+<div class="grid"> 
+<img src="panes/cuernito1.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/cuernito2.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/cuernito3.jpeg" alt="Descripción de la imagen SVG">
+</div>
+
+<video width="320" height="240" controls>
+  <source src="panes/cuernito.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+
+`
+
+,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
 `
@@ -582,7 +653,8 @@ Levadura\t2
 Grasa\t40
 Azúcar\t4
 Total\t188`,
-  instrucciones: `<ol>
+  instrucciones: `<img src="panes/cuernito4.png" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura a la amasadora.
 	Encenderla en velocidad 1 por 5 minutos.</span></p>
@@ -614,6 +686,17 @@ Total\t188`,
 <br/>
 
 </p>
+
+<div class="grid"> 
+<img src="panes/cuernito1.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/cuernito2.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/cuernito3.jpeg" alt="Descripción de la imagen SVG">
+</div>
+
+<video width="320" height="240" controls>
+  <source src="panes/cuernito.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
 `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -629,7 +712,9 @@ Aditivo\t0.6
 Aceite\t7
 Azúcar\t7
 Total\t170.1`,
-  instrucciones: `<ol>
+  instrucciones: `
+  <img src="panes/viena.png" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura a la amasadora.
 	Encenderla en velocidad 1 por 5 minutos.</span></p>
@@ -668,6 +753,10 @@ Total\t170.1`,
 <br/>
 
 </p>
+<div class="grid"> 
+<img src="panes/Viena.jpg" alt="Descripción de la imagen SVG">
+<img src="panes/viena2.jpg" alt="Descripción de la imagen SVG">
+</div>
 `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -682,7 +771,13 @@ Malta\t2
 Gluten\t4
 Levadura\t3
 Total\t181`,
-  instrucciones: `<ol>
+  instrucciones: `
+  <video width="320" height="240" controls>
+  <source src="panes/pizza.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura a a la amasadora.
 	Encenderla en velocidad 1 por 5 minutos.</span></p>
@@ -730,7 +825,9 @@ Levadura\t5
 Azúcar\t10
 Margarina(Hojaldre)\t41.75
 Total\t208.75`,
-  instrucciones: `<ol>
+  instrucciones: `
+  <img src="panes/croissant0.jpeg" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Moldear
 	la margarina de hojaldre en un bloque de aproximadamente 45x30cm</span><sup><span lang="es-MX">2</span></sup><span lang="es-MX">,
 	dejar reposando el bloque de margarina en la heladera. Puedes
@@ -803,6 +900,18 @@ Total\t208.75`,
 <br/>
 
 </p>
+<div class="grid>
+<img src="panes/croissant3.jpeg" alt="Descripción de la imagen" class="recipe-image">
+<img src="panes/croissant4.jpeg" alt="Descripción de la imagen" class="recipe-image">
+<img src="panes/croissant5.jpeg" alt="Descripción de la imagen" class="recipe-image">
+<img src="panes/croissant6.jpeg" alt="Descripción de la imagen" class="recipe-image">
+</div>
+
+<video width="320" height="240" controls>
+  <source src="panes/croissantproceso.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+
 `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -835,7 +944,9 @@ Gluten\t5
 Aditivo\t0.8
 Malta\t3
 Total\t194.8`,
-  instrucciones: `<ol>
+  instrucciones: `
+  <img src="panes/ciabatta.png" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura a a la amasadora.
 	Encenderla en velocidad 1 por 5 minutos.</span></p>
@@ -895,7 +1006,13 @@ Grasa\t5
 Gluten\t2
 Aditivo\t0.8
 Total\t182.8`,
-  instrucciones: `<ol>
+  instrucciones: `
+  
+<video width="320" height="240" controls>
+<source src="panes/pancampo.mp4" type="video/mp4">
+Tu navegador no soporta el elemento de video.
+</video>
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura a a la amasadora.
 	Encenderla en velocidad 1 por 5 minutos.</span></p>
@@ -1111,6 +1228,11 @@ Total\t145.5`,
   <br/>
   
   </p>
+<div class="grid">
+<img src="panes/gallecomun.jpg" alt="Descripción de la imagen" class="recipe-image">
+<img src="panes/gallesemillas.jpg" alt="Descripción de la imagen" class="recipe-image">
+</div>
+
   `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -1148,7 +1270,9 @@ Huevo\t15
 Vainilla\t0.5
 Colorante\t0.1
 Total\t218.6`,
-  instrucciones: `<p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Para
+  instrucciones: `
+  <img src="panes/ojito1.png" alt="Descripción de la imagen" class="recipe-image">
+  <p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Para
   esta receta se utiliza la batidora con paleta.</span></p>
   <ol>
     <li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Mezclar
@@ -1166,7 +1290,7 @@ Total\t218.6`,
     base cicular hacia abajo.</span></p>
     <li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Presionar
     con el dedo pulgar sobre la “tapa” circular para aplastar el
-    ojito y generar el surco clásico.</span></p>
+    ojito y generar el surco clásico. Puede utilizarse un huevo vertical para esta tarea, enharinarlo para evitar romper la masa.</span></p>
     <li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Rellenar
     el surco con jalea o dulce de leche repostero.</span></p>
     <li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Hornear</span></p>
@@ -1227,15 +1351,29 @@ Grasa\t5
 Malta\t2
 Aditivo\t0.8
 Total\t162.8`,
-  instrucciones: `<p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Proceder
+  instrucciones: `
+  <img src="panes/pancasero.png" alt="Descripción de la imagen" class="recipe-image">
+  <p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Proceder
   de forma análoga a la baguette.</span></p>
   <p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Fraccionar
-  en unidades de 400g, realizar el doble corte clásico de pan casero
-  según la figura debajo.</span></p>
+  en unidades de 400g, armar como se muestra en la imagen y realizar el doble corte clásico de pan casero
+  según el video debajo (Un corte profundo alcentro y dos laterales dentro de éste).</span></p>
   <p lang="es-MX" style="line-height: 108%; margin-bottom: 0.11in"><br/>
   <br/>
   
   </p>
+
+  <div class="grid">
+  <img src="panes/casero1.jpeg" alt="Descripción de la imagen" class="recipe-image">
+  <img src="panes/casero2.jpeg" alt="Descripción de la imagen" class="recipe-image">
+  <img src="panes/casero3.jpeg" alt="Descripción de la imagen" class="recipe-image">
+  <img src="panes/casero4.jpeg" alt="Descripción de la imagen" class="recipe-image">
+  </div>
+
+  <video width="320" height="240" controls>
+  <source src="panes/cortepancasero.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
   `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -1250,7 +1388,9 @@ Levadura\t2
 Aceite\t10
 Malta\t3
 Total\t157`,
-  instrucciones: `<ol>
+  instrucciones: `
+  <img src="panes/grisin1.png" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura a la amasadora.
 	Encenderla en velocidad 1 por 5 minutos.</span></p>
@@ -1315,6 +1455,8 @@ Total\t157`,
 <br/>
 
 </p>
+<img src="panes/grisin.jpg" alt="Descripción de la imagen" class="recipe-image">
+
 `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -1329,7 +1471,9 @@ Levadura\t2
 Aceite\t5
 Aditivo\t0.6
 Total\t164.6`,
-  instrucciones: `<ol>
+  instrucciones: `
+  <img src="panes/pita0.png" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura a la amasadora.
 	Encenderla en velocidad 1 por 5 minutos.</span></p>
@@ -1362,6 +1506,12 @@ Total\t164.6`,
 <br/>
 
 </p>
+
+<div class="grid>
+<img src="panes/pita1.jpeg" alt="Descripción de la imagen" class="recipe-image">
+<img src="panes/pita2.jpeg" alt="Descripción de la imagen" class="recipe-image">
+</div>
+
 `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -1420,7 +1570,9 @@ Agua\t33
 Aditivo\t0.6
 Gluten\t2
 Total\t188.2`,
-  instrucciones: `<ol>
+  instrucciones: `
+  <img src="panes/jala.png" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Agregar
 	todos los ingredientes exceptuando la levadura a la amasadora.
 	Encenderla en velocidad 1 por 5 minutos.</span></p>
@@ -1442,7 +1594,17 @@ Total\t188.2`,
 <p lang="es-MX" style="line-height: 108%; margin-bottom: 0.11in"><br/>
 <br/>
 
-</p>`,
+</p>
+<video width="320" height="240" controls>
+  <source src="panes/trenzajalal1.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+<video width="320" height="240" controls>
+  <source src="panes/trenzajalal2.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+
+`,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
 `
@@ -1460,7 +1622,12 @@ Azúcar\t15
 Manteca\t10
 Gluten\t2
 Total\t195.6`,
-  instrucciones: `<p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Proceder
+  instrucciones: `
+  <video width="320" height="240" controls>
+  <source src="panes/pannaranja.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+  <p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Proceder
   de la misma forma que para el pan de Viena, bolear porciones de 20
   gramos, untar en huevo y colocar azúcar previo a la fermentadora
   final.</span></p>
@@ -1561,7 +1728,12 @@ Agua\t50
 Sal\t2
 Levadura\t3
 Total\t155`,
-  instrucciones: `<p style="line-height: 108%; margin-left: 0.49in; text-indent: -0.49in; margin-bottom: 0.11in">
+  instrucciones: `
+  <video width="320" height="240" controls>
+  <source src="panes/trenza.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+  <p style="line-height: 108%; margin-left: 0.49in; text-indent: -0.49in; margin-bottom: 0.11in">
   <span lang="es-MX">La masa de las trenzas aquí mostrada es
   ilustrativa. Se pueden realizar estas trenzas con casi cualquier masa
   que tenga la consistencia adecuada (hidrataciones menores al 55%).</span></p>
@@ -1588,7 +1760,9 @@ Harina_de_maíz\t30
 Gluten\t3
 Aditivo\t0.8
 Total\t215.8`,
-  instrucciones: `<p style="line-height: 108%; margin-left: 0.49in; text-indent: -0.49in; margin-bottom: 0.11in">
+  instrucciones: `
+  <img src="panes/pandemaiz.png" alt="Descripción de la imagen" class="recipe-image">
+  <p style="line-height: 108%; margin-left: 0.49in; text-indent: -0.49in; margin-bottom: 0.11in">
   <span lang="es-MX">Proceder igual que el pan de Viena (Armado de
   catalán) con piezas de 200g.</span></p>
   <p style="line-height: 108%; margin-left: 0.49in; text-indent: -0.49in; margin-bottom: 0.11in">
@@ -1617,7 +1791,9 @@ Miel\t60
 Emulsionante\t80
 Vainilla\t1
 Total\t3741`,
-  instrucciones: `<ol>
+  instrucciones: `
+  <img src="panes/pionono1.jpeg" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Batir
 	todos los ingredientes con el espiral en una batidora hasta lograr
 	el “punto letra”.</span></p>
@@ -1643,6 +1819,12 @@ Total\t3741`,
 <br/>
 
 </p>
+
+<video width="320" height="240" controls>
+  <source src="panes/pionono2.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>
+
 `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -1658,7 +1840,9 @@ Huevo\t150
 Amonio\t30
 Vainilla\t1
 Total\t2081`,
-  instrucciones: `<p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Proceder
+  instrucciones: `
+  <img src="panes/plantilla1.jpeg" alt="Descripción de la imagen" class="recipe-image">
+  <p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Proceder
   de igual forma que para los ojitos, pero generar un rollo de 7cm de
   diámetro y al presionar sobre la chapa utilizar toda la mano para no
   generar el surco.</span></p>
@@ -1673,6 +1857,15 @@ Total\t2081`,
   <br/>
   
   </p>
+
+  <div class="grid"> 
+<img src="panes/polvoron1.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/polvoron2.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/polvoron3.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/polvoron4.jpeg" alt="Descripción de la imagen SVG">
+<img src="panes/polvoron5.jpeg" alt="Descripción de la imagen SVG">
+
+</div>
   `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -1687,7 +1880,9 @@ Harina\t200
 Polvo_de_hornear\t5
 Yemas\t75
 Total\t940`,
-  instrucciones: `<p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">La
+  instrucciones: `
+  <img src="panes/maicena1.jpeg" alt="Descripción de la imagen" class="recipe-image">
+  <p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">La
   masa de las tapas se obtiene con el mismo procedimiento que los
   ojitos y los polvorones.</span></p>
   <p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Luego
@@ -1721,7 +1916,9 @@ Harina\t200
 Fécula_de_maíz\t50
 Azúcar\t250
 Total\t800`,
-  instrucciones: `<ol>
+  instrucciones: `
+  <img src="panes/plantilla1.jpeg" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Batir
 	las claras con la espiral hasta punto nieve.</span></p>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">Batir
@@ -1747,6 +1944,11 @@ Total\t800`,
 <br/>
 
 </p>
+
+<div class="grid">
+<img src="panes/plantilla2.jpeg" alt="Descripción de la imagen" class="recipe-image">
+<img src="panes/plantilla3.jpeg" alt="Descripción de la imagen" class="recipe-image">
+</div>
 `,
   imagen: `
 <img src="ejemplo.png" alt="Descripción de la imagen" class="recipe-image">
@@ -1765,7 +1967,9 @@ Azúcar\t75
 Vainilla\t1
 Fruta\t332.1
 Total\t664.2`,
-  instrucciones: `<ol>
+  instrucciones: `
+  <img src="panes/budin.png" alt="Descripción de la imagen" class="recipe-image">
+  <ol>
 	<li><p style="line-height: 108%; margin-bottom: 0.11in"><span lang="es-MX">En
 	la batidora con paleta, batir la manteca y el azúcar hasta obtener
 	una mezcla homogénea y blanca. </span>
